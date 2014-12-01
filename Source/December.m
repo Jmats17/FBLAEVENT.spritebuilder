@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Apportable. All rights reserved.
 //
 
-#import "MainScene.h"
+#import "December.h"
 
-@implementation MainScene
+@implementation December
 
 @end

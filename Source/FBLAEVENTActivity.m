@@ -29,7 +29,7 @@
 
 - (CCScene *)startScene
 {
-    return [CCBReader loadAsScene:@"MainScene"];
+    return [CCBReader loadAsScene:@"December"];
 }
 
 - (BOOL)onKeyUp:(int32_t)keyCode keyEvent:(AndroidKeyEvent *)event

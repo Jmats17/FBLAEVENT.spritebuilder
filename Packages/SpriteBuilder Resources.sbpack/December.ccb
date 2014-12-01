@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>6</integer>
+	<integer>205</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -43,15 +43,15 @@
 		<array>
 			<dict>
 				<key>UUID</key>
-				<integer>5</integer>
+				<integer>204</integer>
 				<key>baseClass</key>
-				<string>CCNodeGradient</string>
+				<string>CCSprite9Slice</string>
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCNodeGradient</string>
+				<string>CCSprite9Slice</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -73,8 +73,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.0</real>
-							<real>0.0</real>
+							<real>0.5</real>
+							<real>0.5</real>
 							<integer>0</integer>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -100,8 +100,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.0</real>
-							<real>0.0</real>
+							<real>0.5</real>
+							<real>0.5</real>
 						</array>
 					</dict>
 					<dict>
@@ -119,7 +119,29 @@
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>startColor</string>
+						<string>spriteFrame</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>ccbResources/december.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>normalMapSpriteFrame</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string></string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>color</string>
 						<key>type</key>
 						<string>Color3</string>
 						<key>value</key>
@@ -132,27 +154,35 @@
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>endColor</string>
+						<string>marginLeft</string>
 						<key>type</key>
-						<string>Color3</string>
+						<string>Float</string>
 						<key>value</key>
-						<array>
-							<real>1</real>
-							<real>1</real>
-							<real>1</real>
-							<real>1</real>
-						</array>
+						<real>0.0099999997764825821</real>
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>vector</string>
+						<string>marginRight</string>
 						<key>type</key>
-						<string>Point</string>
+						<string>Float</string>
 						<key>value</key>
-						<array>
-							<real>0.0</real>
-							<real>-1</real>
-						</array>
+						<real>0.0099999997764825821</real>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>marginTop</string>
+						<key>type</key>
+						<string>Float</string>
+						<key>value</key>
+						<real>0.0099999997764825821</real>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>marginBottom</string>
+						<key>type</key>
+						<string>Float</string>
+						<key>value</key>
+						<real>0.0099999997764825821</real>
 					</dict>
 				</array>
 				<key>selected</key>
