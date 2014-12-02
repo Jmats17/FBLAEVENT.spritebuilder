@@ -195,8 +195,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>may1</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -218,11 +216,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>252.75753784179688</real>
-							<real>406.7156982421875</real>
+							<real>0.78986728191375732</real>
+							<real>0.71604877710342407</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -523,8 +521,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -546,11 +542,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>296.29678344726562</real>
-							<real>407.04571533203125</real>
+							<real>0.92592746019363403</real>
+							<real>0.71662980318069458</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -851,8 +847,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -874,11 +868,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>21.810365676879883</real>
-							<real>331.3253173828125</real>
+							<real>0.068157389760017395</real>
+							<real>0.58331924676895142</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1179,8 +1173,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -1202,11 +1194,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>67.242599487304688</real>
-							<real>333.21832275390625</real>
+							<real>0.21013312041759491</real>
+							<real>0.58665198087692261</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1507,8 +1499,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -1530,11 +1520,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>112.67483520507812</real>
-							<real>333.21832275390625</real>
+							<real>0.35210886597633362</real>
+							<real>0.58665198087692261</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1835,8 +1825,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -1858,11 +1846,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>158.10707092285156</real>
-							<real>333.21832275390625</real>
+							<real>0.49408459663391113</real>
+							<real>0.58665198087692261</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2163,8 +2151,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -2186,11 +2172,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>205.43232727050781</real>
-							<real>333.21832275390625</real>
+							<real>0.641975998878479</real>
+							<real>0.58665198087692261</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2491,8 +2477,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -2514,11 +2498,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>248.9715576171875</real>
-							<real>333.21832275390625</real>
+							<real>0.77803611755371094</real>
+							<real>0.58665198087692261</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2819,8 +2803,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -2842,11 +2824,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>292.51080322265625</real>
-							<real>333.21832275390625</real>
+							<real>0.91409623622894287</real>
+							<real>0.58665198087692261</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -3147,8 +3129,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -3170,11 +3150,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>294.40380859375</real>
-							<real>261.28396606445312</real>
+							<real>0.92001187801361084</real>
+							<real>0.46000698208808899</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -3475,8 +3455,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>may15</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -3498,11 +3476,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>250.86459350585938</real>
-							<real>261.28396606445312</real>
+							<real>0.78395187854766846</real>
+							<real>0.46000698208808899</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -3808,8 +3786,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -3831,11 +3807,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>161.89314270019531</real>
-							<real>261.28396606445312</real>
+							<real>0.5059160590171814</real>
+							<real>0.46000698208808899</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -4167,8 +4143,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -4200,11 +4174,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>209.21839904785156</real>
-							<real>259.39096069335938</real>
+							<real>0.65380752086639404</real>
+							<real>0.45667421817779541</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -4536,8 +4510,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -4569,11 +4541,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>116.46092224121094</real>
-							<real>261.28396606445312</real>
+							<real>0.36394038796424866</real>
+							<real>0.46000698208808899</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -4905,8 +4877,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -4938,11 +4908,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>72.92169189453125</real>
-							<real>261.28396606445312</real>
+							<real>0.22788028419017792</real>
+							<real>0.46000698208808899</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -5274,8 +5244,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -5307,11 +5275,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>27.489458084106445</real>
-							<real>259.39096069335938</real>
+							<real>0.085904553532600403</real>
+							<real>0.45667421817779541</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -5643,8 +5611,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -5676,11 +5642,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>25.59644889831543</real>
-							<real>187.45658874511719</real>
+							<real>0.079988904297351837</real>
+							<real>0.33002921938896179</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -6012,8 +5978,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -6045,11 +6009,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>71.0286865234375</real>
-							<real>189.18458557128906</real>
+							<real>0.22196464240550995</real>
+							<real>0.33307144045829773</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -6381,8 +6345,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -6414,11 +6376,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>114.56790924072266</real>
-							<real>187.45660400390625</real>
+							<real>0.3580247163772583</real>
+							<real>0.33002921938896179</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -6750,8 +6712,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -6783,11 +6743,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>160.00013732910156</real>
-							<real>185.5635986328125</real>
+							<real>0.50000041723251343</real>
+							<real>0.3266964852809906</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -7119,8 +7079,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -7152,11 +7110,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>203.53936767578125</real>
-							<real>183.67059326171875</real>
+							<real>0.63606053590774536</real>
+							<real>0.32336372137069702</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -7488,8 +7446,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -7521,11 +7477,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>245.18559265136719</real>
-							<real>187.29161071777344</real>
+							<real>0.76620495319366455</real>
+							<real>0.32973876595497131</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -7857,8 +7813,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>may23</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -7890,11 +7844,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>292.51083374023438</real>
-							<real>187.45663452148438</real>
+							<real>0.91409635543823242</real>
+							<real>0.33002927899360657</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -8226,8 +8180,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -8259,11 +8211,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>298.18988037109375</real>
-							<real>111.73624420166016</real>
+							<real>0.93184340000152588</real>
+							<real>0.1967187374830246</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -8595,8 +8547,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -8628,11 +8578,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>254.65066528320312</real>
-							<real>111.73624420166016</real>
+							<real>0.79578334093093872</real>
+							<real>0.1967187374830246</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -8964,8 +8914,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -8997,11 +8945,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>209.21842956542969</real>
-							<real>110.17324829101562</real>
+							<real>0.65380758047103882</real>
+							<real>0.19396698474884033</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -9333,8 +9281,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -9366,11 +9312,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>154.98118591308594</real>
-							<real>113.62924957275391</real>
+							<real>0.48431620001792908</real>
+							<real>0.20005150139331818</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -9702,8 +9648,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -9735,11 +9679,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>109.71395874023438</real>
-							<real>113.62924957275391</real>
+							<real>0.34285610914230347</real>
+							<real>0.20005150139331818</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -10071,8 +10015,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -10104,11 +10046,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>69.96075439453125</real>
-							<real>113.62924957275391</real>
+							<real>0.21862736344337463</real>
+							<real>0.20005150139331818</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -10440,8 +10382,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -10473,11 +10413,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>25.596479415893555</real>
-							<real>113.62924957275391</real>
+							<real>0.079989001154899597</real>
+							<real>0.20005150139331818</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -10809,8 +10749,6 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
-				<key>hidden</key>
-				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -10842,11 +10780,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>25.596479415893555</real>
-							<real>28.443803787231445</real>
+							<real>0.079989001154899597</real>
+							<real>0.05007711797952652</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -11135,6 +11073,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
