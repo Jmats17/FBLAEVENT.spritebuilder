@@ -223,11 +223,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>207.36003112792969</real>
-									<real>383.6160888671875</real>
+									<real>0.64800012111663818</real>
+									<real>0.71382641792297363</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -549,11 +549,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>250.56002807617188</real>
-									<real>385.34408569335938</real>
+									<real>0.78300011157989502</real>
+									<real>0.71558713912963867</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -875,11 +875,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>293.3043212890625</real>
-									<real>384.4326171875</real>
+									<real>0.91885071992874146</real>
+									<real>0.72039014101028442</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -1168,8 +1168,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -1203,11 +1201,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>22.463998794555664</real>
-									<real>202.17605590820312</real>
+									<real>0.07019999623298645</real>
+									<real>0.40592357516288757</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -1537,11 +1535,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>67.391998291015625</real>
-									<real>203.904052734375</real>
+									<real>0.21059998869895935</real>
+									<real>0.4089658260345459</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -1863,11 +1861,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>111.59209442138672</real>
-									<real>202.81536865234375</real>
+									<real>0.34872528910636902</real>
+									<real>0.40704911947250366</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -2189,11 +2187,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>156.52009582519531</real>
-									<real>199.90373229980469</real>
+									<real>0.48912531137466431</real>
+									<real>0.40833064913749695</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -2203,8 +2201,8 @@
 								<string>Point</string>
 								<key>value</key>
 								<array>
-									<real>0.5</real>
-									<real>0.5</real>
+									<real>0.4320870041847229</real>
+									<real>0.5411221981048584</real>
 								</array>
 							</dict>
 							<dict>
@@ -2515,11 +2513,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>205.63204956054688</real>
-									<real>203.90408325195312</real>
+									<real>0.6516990065574646</real>
+									<real>0.40255820751190186</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -2841,11 +2839,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>250.56004333496094</real>
-									<real>202.17607116699219</real>
+									<real>0.78527486324310303</real>
+									<real>0.40079742670059204</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -3167,11 +3165,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>295.48806762695312</real>
-									<real>202.80903625488281</real>
+									<real>0.92340022325515747</real>
+									<real>0.40319335460662842</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -3493,11 +3491,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>21.008205413818359</real>
-									<real>110.31985473632812</real>
+									<real>0.070200085639953613</real>
+									<real>0.24292336404323578</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -3819,11 +3817,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>63.752475738525391</real>
-									<real>110.59203338623047</real>
+									<real>0.20150120556354523</real>
+									<real>0.24852868914604187</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -4145,11 +4143,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>110.40848541259766</real>
-									<real>108.86403656005859</real>
+									<real>0.34730124473571777</real>
+									<real>0.24036028981208801</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -4471,11 +4469,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>153.88066101074219</real>
-									<real>110.59203338623047</real>
+									<real>0.49452537298202515</real>
+									<real>0.23571334779262543</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -4797,11 +4795,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>205.63204956054688</real>
-									<real>108.86402130126953</real>
+									<real>0.65169906616210938</real>
+									<real>0.24036028981208801</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -5123,11 +5121,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>252.28805541992188</real>
-									<real>112.32003784179688</real>
+									<real>0.78840017318725586</real>
+									<real>0.24644480645656586</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -5449,11 +5447,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>293.57647705078125</real>
-									<real>111.4085693359375</real>
+									<real>0.9265252947807312</real>
+									<real>0.24227704107761383</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -5775,11 +5773,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>22.464025497436523</real>
-									<real>14.551938056945801</real>
+									<real>0.070200078189373016</real>
+									<real>0.080725535750389099</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -6101,11 +6099,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>65.664031982421875</real>
-									<real>12.096033096313477</real>
+									<real>0.20974953472614288</real>
+									<real>0.084090955555438995</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -6427,11 +6425,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>111.59212493896484</real>
-									<real>17.647138595581055</real>
+									<real>0.34872537851333618</real>
+									<real>0.08104870468378067</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -6753,11 +6751,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>157.52021789550781</real>
-									<real>13.09611988067627</real>
+									<real>0.49907484650611877</real>
+									<real>0.076880946755409241</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -7079,11 +7077,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>203.90406799316406</real>
-									<real>13.824031829833984</real>
+									<real>0.65312325954437256</real>
+									<real>0.080725550651550293</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -7405,11 +7403,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>248.83207702636719</real>
-									<real>19.008033752441406</real>
+									<real>0.78442442417144775</real>
+									<real>0.084726177155971527</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -7731,11 +7729,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>295.48806762695312</real>
-									<real>20.736032485961914</real>
+									<real>0.93249911069869995</real>
+									<real>0.076234631240367889</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -8024,6 +8022,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -8057,11 +8057,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>22.464017868041992</real>
-									<real>293.76007080078125</real>
+									<real>0.070200055837631226</real>
+									<real>0.55947381258010864</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -8383,11 +8383,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>65.664024353027344</real>
-									<real>293.76007080078125</real>
+									<real>0.20747479796409607</real>
+									<real>0.5543476939201355</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -8397,8 +8397,8 @@
 								<string>Point</string>
 								<key>value</key>
 								<array>
-									<real>0.5</real>
-									<real>0.5</real>
+									<real>0.51875436305999756</real>
+									<real>0.44646862149238586</real>
 								</array>
 							</dict>
 							<dict>
@@ -8709,11 +8709,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>108.86402893066406</real>
-									<real>295.48806762695312</real>
+									<real>0.34929898381233215</real>
+									<real>0.56251609325408936</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -9035,11 +9035,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>157.24803161621094</real>
-									<real>293.76007080078125</real>
+									<real>0.4914000928401947</real>
+									<real>0.56075531244277954</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -9361,11 +9361,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>206.54351806640625</real>
-									<real>287.75955200195312</real>
+									<real>0.64999794960021973</real>
+									<real>0.56044334173202515</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -9687,11 +9687,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>248.83206176757812</real>
-									<real>292.0321044921875</real>
+									<real>0.79124850034713745</real>
+									<real>0.55130547285079956</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -10013,11 +10013,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>295.48806762695312</real>
-									<real>292.03207397460938</real>
+									<real>0.92340022325515747</real>
+									<real>0.5577130913734436</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -10333,11 +10333,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>1.7280001640319824</real>
-							<real>27.648002624511719</real>
+							<real>0.0</real>
+							<real>0.0</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -10347,10 +10347,10 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>0.0</real>
-							<real>0.0</real>
-							<integer>0</integer>
-							<integer>0</integer>
+							<real>1</real>
+							<real>1</real>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
