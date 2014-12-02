@@ -194,7 +194,9 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCButton</string>
+				<string>may1</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -217,7 +219,7 @@
 						<key>value</key>
 						<array>
 							<real>252.75753784179688</real>
-							<real>403.25970458984375</real>
+							<real>406.7156982421875</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -254,7 +256,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>may1</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -521,6 +523,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -580,7 +584,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -847,6 +851,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -906,7 +912,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -1173,6 +1179,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -1232,7 +1240,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -1499,6 +1507,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -1558,7 +1568,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -1825,6 +1835,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -1884,7 +1896,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -2151,6 +2163,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -2210,7 +2224,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -2477,6 +2491,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -2536,7 +2552,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -2803,6 +2819,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -2862,7 +2880,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -3129,6 +3147,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -3188,7 +3208,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -3454,7 +3474,9 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCButton</string>
+				<string>may15</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -3514,7 +3536,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>may15</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -3776,33 +3798,7 @@
 				<key>animatedProperties</key>
 				<dict>
 					<key>0</key>
-					<dict>
-						<key>visible</key>
-						<dict>
-							<key>keyframes</key>
-							<array>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>0</integer>
-									</dict>
-									<key>name</key>
-									<string>visible</string>
-									<key>time</key>
-									<real>0.0</real>
-									<key>type</key>
-									<integer>1</integer>
-									<key>value</key>
-									<true/>
-								</dict>
-							</array>
-							<key>name</key>
-							<string>visible</string>
-							<key>type</key>
-							<integer>1</integer>
-						</dict>
-					</dict>
+					<dict/>
 				</dict>
 				<key>baseClass</key>
 				<string>CCButton</string>
@@ -3812,22 +3808,14 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>
 				<array>
-					<dict>
-						<key>baseValue</key>
-						<integer>1</integer>
-						<key>name</key>
-						<string>visible</string>
-						<key>type</key>
-						<string>Check</string>
-						<key>value</key>
-						<true/>
-					</dict>
 					<dict>
 						<key>name</key>
 						<string>name</string>
@@ -3881,7 +3869,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -4136,8 +4124,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -4181,6 +4167,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -4250,7 +4238,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -4505,8 +4493,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -4550,6 +4536,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -4619,7 +4607,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -4874,8 +4862,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -4919,6 +4905,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -4988,7 +4976,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -5243,8 +5231,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -5288,6 +5274,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -5357,7 +5345,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -5612,8 +5600,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -5657,6 +5643,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -5726,7 +5714,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -5981,8 +5969,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -6026,6 +6012,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -6058,7 +6046,7 @@
 						<key>value</key>
 						<array>
 							<real>71.0286865234375</real>
-							<real>187.45658874511719</real>
+							<real>189.18458557128906</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -6095,7 +6083,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -6350,8 +6338,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -6395,6 +6381,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -6464,7 +6452,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -6719,8 +6707,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -6764,6 +6750,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -6833,7 +6821,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -7088,8 +7076,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -7133,6 +7119,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -7202,7 +7190,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -7457,8 +7445,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -7502,6 +7488,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -7534,7 +7522,7 @@
 						<key>value</key>
 						<array>
 							<real>245.18559265136719</real>
-							<real>185.56361389160156</real>
+							<real>187.29161071777344</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -7571,7 +7559,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -7826,8 +7814,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -7870,7 +7856,9 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCButton</string>
+				<string>may23</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -7940,7 +7928,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>may23</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -8195,8 +8183,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -8240,6 +8226,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -8309,7 +8297,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -8564,8 +8552,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -8609,6 +8595,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -8678,7 +8666,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -8933,8 +8921,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -8978,6 +8964,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -9010,7 +8998,7 @@
 						<key>value</key>
 						<array>
 							<real>209.21842956542969</real>
-							<real>113.62924957275391</real>
+							<real>110.17324829101562</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -9047,7 +9035,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -9302,8 +9290,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -9347,6 +9333,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -9378,7 +9366,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>161.8931884765625</real>
+							<real>154.98118591308594</real>
 							<real>113.62924957275391</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -9416,7 +9404,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -9671,8 +9659,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -9716,6 +9702,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -9747,7 +9735,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>118.35396575927734</real>
+							<real>109.71395874023438</real>
 							<real>113.62924957275391</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -9785,7 +9773,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -10040,8 +10028,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -10085,6 +10071,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -10116,7 +10104,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>78.600753784179688</real>
+							<real>69.96075439453125</real>
 							<real>113.62924957275391</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -10154,7 +10142,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -10409,8 +10397,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -10454,6 +10440,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -10523,7 +10511,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -10778,8 +10766,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -10823,6 +10809,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCButton</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -10892,7 +10880,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string></string>
+							<string>a</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -11147,10 +11135,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -11290,9 +11274,9 @@
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
-			<real>0.0</real>
+			<real>0.015104055404663086</real>
 			<key>position</key>
-			<real>0.0</real>
+			<real>2.3666665554046631</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

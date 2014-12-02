@@ -261,7 +261,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -527,7 +527,7 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCButton</string>
+						<string>mar2</string>
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
@@ -549,7 +549,7 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>69.465606689453125</real>
+									<real>68.025604248046875</real>
 									<real>415.41131591796875</real>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -587,7 +587,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>mar2</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -913,7 +913,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -1239,7 +1239,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -1565,7 +1565,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -1891,7 +1891,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -2217,7 +2217,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -2543,7 +2543,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -2869,7 +2869,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -3195,7 +3195,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -3461,7 +3461,7 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCButton</string>
+						<string>mar11</string>
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
@@ -3521,7 +3521,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>mar11</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -3847,7 +3847,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -4173,7 +4173,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -4499,7 +4499,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -4825,7 +4825,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -5151,7 +5151,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -5477,7 +5477,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -5803,7 +5803,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -6129,7 +6129,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -6455,7 +6455,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -6781,7 +6781,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -7107,7 +7107,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -7433,7 +7433,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -7759,7 +7759,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -8085,7 +8085,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -8411,7 +8411,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -8737,7 +8737,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -9063,7 +9063,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -9389,7 +9389,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -9655,7 +9655,7 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCButton</string>
+						<string>mar27</string>
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
@@ -9715,7 +9715,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>mar27</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -10041,7 +10041,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>a</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -10304,6 +10304,8 @@
 				<string></string>
 				<key>displayName</key>
 				<string>CCNode</string>
+				<key>hidden</key>
+				<true/>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>

@@ -9,5 +9,15 @@
 #import "June.h"
 
 @implementation June
+{
+    CCButton *aa;
+}
 
+-(void) didLoadFromCCB {
+    self.userInteractionEnabled = TRUE;
+
+}
+- (void) a {
+    aa.visible = false;
+}
 @end

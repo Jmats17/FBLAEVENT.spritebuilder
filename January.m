@@ -9,5 +9,12 @@
 #import "January.h"
 
 @implementation January
+{
+    CCButton *a;
+}
+
+- (void) a {
+    a.visible = false;
+}
 
 @end
