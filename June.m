@@ -11,6 +11,7 @@
 @implementation June
 {
     CCButton *aa;
+    CCScene *noevent;
 }
 
 -(void) didLoadFromCCB {
@@ -18,6 +19,8 @@
 
 }
 - (void) a {
-    aa.visible = false;
+    CCScene *noevent = [CCBReader loadAsScene: @"noevent"];
+    CCTransition *transition = [CCTransition transitionCrossFadeWithDuration:.5f];
+    [[CCDirector sharedDirector] replaceScene:noevent withTransition:transition];
 }
 @end
