@@ -41,8 +41,8 @@
 
 // 0x00 HI ME LO
 // 00   03 01 01
-#define COCOS2D_VERSION 0x00030200
-#define COCOS2D_BUILD @"release"
+#define COCOS2D_VERSION 0x00030300
+#define COCOS2D_BUILD @"develop"
 //
 // all cocos2d include files
 //
@@ -65,11 +65,13 @@
 #import "CCEffect.h"
 #import "CCEffectBloom.h"
 #import "CCEffectBrightness.h"
+#import "CCEffectColorChannelOffset.h"
 #import "CCEffectContrast.h"
 #import "CCEffectBlur.h"
 #import "CCEffectGlass.h"
 #import "CCEffectDropShadow.h"
 #import "CCEffectHue.h"
+#import "CCEffectLighting.h"
 #import "CCEffectNode.h"
 #import "CCEffectPixellate.h"
 #import "CCEffectReflection.h"
@@ -78,6 +80,7 @@
 #import "CCEffectStack.h"
 #import "CCLabelBMFont.h"
 #import "CCLabelTTF.h"
+#import "CCLightNode.h"
 #import "CCMotionStreak.h"
 #import "CCNode+Debug.h"
 #import "CCNode.h"
@@ -100,10 +103,13 @@
 #import "CCTiledMapLayer.h"
 #import "CCTiledMapObjectGroup.h"
 #import "CCTransition.h"
+#import "CCPackageManager.h"
+#import "CCPackage.h"
 
 #if CC_EFFECTS_EXPERIMENTAL
 #import "CCEffectDFOutline.h"
 #import "CCEffectDistanceField.h"
+#import "CCEffectDFInnerGlow.h"
 #endif
 
 // Layouts
@@ -120,7 +126,7 @@
 #import "CCPhysicsShape.h"
 
 // Sound
-#import "OALSimpleAudio.h"
+//#import "OALSimpleAudio.h"
 
 // Retiring
 //#import "CCAnimation.h"

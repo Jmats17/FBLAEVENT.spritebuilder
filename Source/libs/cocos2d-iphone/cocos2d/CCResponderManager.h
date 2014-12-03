@@ -58,7 +58,7 @@
 /**
  *  Holds the current touch. Note that touches must not be retained.
  */
-@property (nonatomic/*, weak*/) CCTouch *touch;
+@property (nonatomic, weak) CCTouch *touch;
 
 /**
  *  Holdes the current event. Note that events must not be retained.
@@ -217,6 +217,8 @@ enum
  */
 - (NSArray *)nodesAtPoint:(CGPoint)pos;
 
+
+#if !__CC_PLATFORM_MAC
 /// -----------------------------------------------------------------------
 /// @name CCResponderManager Touch methods
 /// -----------------------------------------------------------------------
@@ -228,54 +230,6 @@ enum
 - (void)touchesEnded:(NSSet *)touches withEvent:(CCTouchEvent *)event;
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(CCTouchEvent *)event;
+#endif
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

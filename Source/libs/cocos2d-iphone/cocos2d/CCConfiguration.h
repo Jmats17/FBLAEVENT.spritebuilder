@@ -25,14 +25,14 @@
  */
 
 #import <Foundation/Foundation.h>
-
-#import "Platforms/CCGL.h"
+#import "CCGL.h"
 
 #define CC_MINIMUM_TABLET_SCREEN_DIAGONAL 6.0
 extern Class CCGraphicsBufferClass;
 extern Class CCGraphicsBufferBindingsClass;
 extern Class CCRenderStateClass;
 extern Class CCRenderCommandDrawClass;
+extern Class CCFrameBufferObjectClass;
 
 extern NSString* const CCSetupPixelFormat;
 extern NSString* const CCSetupScreenMode;
@@ -94,6 +94,8 @@ typedef NS_ENUM(NSUInteger, CCDevice) {
 	CCDeviceiPhoneRetinaDisplay,
 	CCDeviceiPhone5,
 	CCDeviceiPhone5RetinaDisplay,
+	CCDeviceiPhone6,
+	CCDeviceiPhone6Plus,
 	CCDeviceiPad,
 	CCDeviceiPadRetinaDisplay,
 
