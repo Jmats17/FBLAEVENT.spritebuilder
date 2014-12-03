@@ -215,7 +215,7 @@
 								<string>Text</string>
 								<key>value</key>
 								<array>
-									<string>JANUARY 9</string>
+									<string>JANUARY 23</string>
 									<false/>
 								</array>
 							</dict>
@@ -655,7 +655,7 @@
 								<string>Text</string>
 								<key>value</key>
 								<array>
-									<string>SKI &amp; SNOWBOARD TRIP</string>
+									<string>SKI &amp; SNOWBOARD TRIP #2</string>
 									<false/>
 								</array>
 							</dict>
@@ -1529,8 +1529,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -1538,7 +1536,7 @@
 		<key>displayName</key>
 		<string>CCNode</string>
 		<key>memberVarAssignmentName</key>
-		<string>jan9event</string>
+		<string>jan23event</string>
 		<key>memberVarAssignmentType</key>
 		<integer>1</integer>
 		<key>properties</key>
@@ -1603,6 +1601,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
@@ -1650,9 +1650,9 @@
 				<integer>12</integer>
 			</dict>
 			<key>chainedSequenceId</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>length</key>
-			<real>1</real>
+			<real>10</real>
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
