@@ -177,8 +177,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.5</real>
-									<real>0.89999997615814209</real>
+									<real>0.45534229278564453</real>
+									<real>0.89768362045288086</real>
 									<integer>0</integer>
 									<integer>2</integer>
 									<integer>2</integer>
@@ -397,8 +397,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.5</real>
-									<real>0.5</real>
+									<real>0.52070122957229614</real>
+									<real>0.47794559597969055</real>
 									<integer>0</integer>
 									<integer>2</integer>
 									<integer>2</integer>
@@ -708,8 +708,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.50176054239273071</real>
-									<real>0.2604166567325592</real>
+									<real>0.45886349678039551</real>
+									<real>0.20502267777919769</real>
 									<integer>0</integer>
 									<integer>2</integer>
 									<integer>2</integer>
@@ -733,8 +733,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>1.5</real>
-									<real>1.5</real>
+									<real>0.95623159408569336</real>
+									<real>0.82086610794067383</real>
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -828,8 +828,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.091831006109714508</real>
-									<real>0.90875011682510376</real>
+									<real>0.10958857834339142</real>
+									<real>0.85717803239822388</real>
 									<integer>0</integer>
 									<integer>2</integer>
 									<integer>2</integer>
@@ -853,8 +853,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>1</real>
-									<real>1</real>
+									<real>0.54043269157409668</real>
+									<real>0.57000982761383057</real>
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -1162,8 +1162,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.5</real>
-									<real>0.69999998807907104</real>
+									<real>0.4596996009349823</real>
+									<real>0.71681767702102661</real>
 									<integer>0</integer>
 									<integer>2</integer>
 									<integer>2</integer>
@@ -1382,8 +1382,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>447.74673461914062</real>
-									<real>295.49346923828125</real>
+									<real>232.42829895019531</real>
+									<real>153.18531799316406</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1407,8 +1407,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>1</real>
-									<real>1</real>
+									<real>0.38820046186447144</real>
+									<real>0.38796809315681458</real>
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -1529,6 +1529,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -1536,7 +1538,7 @@
 		<key>displayName</key>
 		<string>CCNode</string>
 		<key>memberVarAssignmentName</key>
-		<string>Jun4event</string>
+		<string></string>
 		<key>memberVarAssignmentType</key>
 		<integer>1</integer>
 		<key>properties</key>
@@ -1570,10 +1572,10 @@
 				<string>Size</string>
 				<key>value</key>
 				<array>
-					<real>568</real>
-					<real>384</real>
-					<integer>0</integer>
-					<integer>0</integer>
+					<real>0.5</real>
+					<real>0.5</real>
+					<integer>2</integer>
+					<integer>2</integer>
 				</array>
 			</dict>
 			<dict>
@@ -1583,8 +1585,8 @@
 				<string>Point</string>
 				<key>value</key>
 				<array>
-					<real>0.0</real>
-					<real>0.0</real>
+					<real>0.5</real>
+					<real>0.5</real>
 				</array>
 			</dict>
 			<dict>
@@ -1601,8 +1603,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
