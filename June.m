@@ -54,4 +54,18 @@
     noEvent.visible = false;
 }
 
+=======
+//- (void) a {
+//    CCScene *noEvent = [CCBReader loadAsScene: @"Noevent"];
+//    CCTransition *transition = [CCTransition transitionCrossFadeWithDuration:.5f];
+//    [[CCDirector sharedDirector] replaceScene:noEvent withTransition:transition];
+//}
+
+-(void) jun4 {
+        CCScene *Jun4 = [CCBReader loadAsScene: @"Events/Jun4"];
+        [[CCDirector sharedDirector] replaceScene:Jun4];
+
+}
+
+>>>>>>> 39d45b36604b7a0d526914ad26f6334f0feca97d
 @end

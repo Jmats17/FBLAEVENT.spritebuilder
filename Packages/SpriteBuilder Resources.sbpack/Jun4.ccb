@@ -177,8 +177,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.5</real>
-									<real>0.89999997615814209</real>
+									<real>0.45534229278564453</real>
+									<real>0.89768362045288086</real>
 									<integer>0</integer>
 									<integer>2</integer>
 									<integer>2</integer>
@@ -397,8 +397,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.5</real>
-									<real>0.5</real>
+									<real>0.52070122957229614</real>
+									<real>0.47794559597969055</real>
 									<integer>0</integer>
 									<integer>2</integer>
 									<integer>2</integer>
@@ -708,8 +708,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.50176054239273071</real>
-									<real>0.2604166567325592</real>
+									<real>0.45886349678039551</real>
+									<real>0.20502267777919769</real>
 									<integer>0</integer>
 									<integer>2</integer>
 									<integer>2</integer>
@@ -733,8 +733,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>1.5</real>
-									<real>1.5</real>
+									<real>0.95623159408569336</real>
+									<real>0.82086610794067383</real>
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -828,8 +828,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.5</real>
-									<real>0.69999998807907104</real>
+									<real>0.4596996009349823</real>
+									<real>0.71681767702102661</real>
 									<integer>0</integer>
 									<integer>2</integer>
 									<integer>2</integer>
@@ -1050,6 +1050,7 @@
 								<array>
 									<real>472.1903076171875</real>
 									<real>302.44113159179688</real>
+
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1075,6 +1076,7 @@
 								<array>
 									<real>1.2512850761413574</real>
 									<real>1.3004902601242065</real>
+									
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -1195,6 +1197,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -1236,10 +1240,10 @@
 				<string>Size</string>
 				<key>value</key>
 				<array>
-					<real>568</real>
-					<real>384</real>
-					<integer>0</integer>
-					<integer>0</integer>
+					<real>0.5</real>
+					<real>0.5</real>
+					<integer>2</integer>
+					<integer>2</integer>
 				</array>
 			</dict>
 			<dict>
@@ -1249,8 +1253,8 @@
 				<string>Point</string>
 				<key>value</key>
 				<array>
-					<real>0.0</real>
-					<real>0.0</real>
+					<real>0.5</real>
+					<real>0.5</real>
 				</array>
 			</dict>
 			<dict>

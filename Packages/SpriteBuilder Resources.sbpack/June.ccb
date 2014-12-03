@@ -10861,6 +10861,7 @@
 						<key>memberVarAssignmentType</key>
 						<integer>1</integer>
 						<key>properties</key>
+
 						<array>
 							<dict>
 								<key>name</key>
@@ -11126,6 +11127,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
