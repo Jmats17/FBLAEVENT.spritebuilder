@@ -43,6 +43,7 @@ Class CCGraphicsBufferClass;
 Class CCGraphicsBufferBindingsClass;
 Class CCRenderStateClass;
 Class CCRenderCommandDrawClass;
+Class CCFrameBufferObjectClass;
 
 NSString* const CCSetupPixelFormat = @"CCSetupPixelFormat";
 NSString* const CCSetupScreenMode = @"CCSetupScreenMode";
@@ -88,8 +89,9 @@ static char * glExtensions;
 
 + (CCConfiguration *)sharedConfiguration
 {
-	if (!_sharedConfiguration)
+	if (!_sharedConfiguration){
 		_sharedConfiguration = [[self alloc] init];
+	}
 
 	return _sharedConfiguration;
 }
@@ -137,21 +139,32 @@ static char * glExtensions;
 -(CCGraphicsAPI)graphicsAPI
 {
 	if(_graphicsAPI == CCGraphicsAPIInvalid){
-		if(__CC_METAL_SUPPORTED_AND_ENABLED && NSProtocolFromString(@"MTLDevice") && !getenv("CC_FORCE_GL")){
+#if __CC_METAL_SUPPORTED_AND_ENABLED
+		if(NSProtocolFromString(@"MTLDevice") && !getenv("CC_FORCE_GL")){
 			CCGraphicsBufferClass = NSClassFromString(@"CCGraphicsBufferMetal");
 			CCGraphicsBufferBindingsClass = NSClassFromString(@"CCGraphicsBufferBindingsMetal");
 			CCRenderStateClass = NSClassFromString(@"CCRenderStateMetal");
 			CCRenderCommandDrawClass = NSClassFromString(@"CCRenderCommandDrawMetal");
+			CCFrameBufferObjectClass = NSClassFromString(@"CCFrameBufferObjectMetal");
 			
 			_graphicsAPI = CCGraphicsAPIMetal;
-		} else {
+		} else
+#endif
+		{
 			CCGraphicsBufferClass = NSClassFromString(@"CCGraphicsBufferGLBasic");
 			CCGraphicsBufferBindingsClass = NSClassFromString(@"CCGraphicsBufferBindingsGL");
 			CCRenderStateClass = NSClassFromString(@"CCRenderStateGL");
 			CCRenderCommandDrawClass = NSClassFromString(@"CCRenderCommandDrawGL");
+			CCFrameBufferObjectClass = NSClassFromString(@"CCFrameBufferObjectGL");
 			
 			_graphicsAPI = CCGraphicsAPIGL;
 		}
+		
+		NSAssert(CCGraphicsBufferClass, @"CCGraphicsBufferClass not configured.");
+		NSAssert(CCGraphicsBufferBindingsClass, @"CCGraphicsBufferBindingsClass not configured.");
+		NSAssert(CCRenderStateClass, @"CCRenderStateClass not configured.");
+		NSAssert(CCRenderCommandDrawClass, @"CCRenderCommandDrawClass not configured.");
+		NSAssert(CCFrameBufferObjectClass, @"CCFrameBufferObjectClass not configured.");
 	}
 	
 	return _graphicsAPI;
@@ -169,8 +182,8 @@ static char * glExtensions;
 // XXX: Optimization: This should be called only once
 -(NSInteger) runningDevice
 {
-	NSInteger ret=-1;
-
+	// TODO: This method really needs to go very away in v4
+	
 #if __CC_PLATFORM_ANDROID
     
     AndroidDisplayMetrics *metrics = [[AndroidDisplayMetrics alloc] init];
@@ -183,20 +196,20 @@ static char * glExtensions;
         
         if([CCDirector sharedDirector].contentScaleFactor > 1.0)
         {
-            ret = CCDeviceiPhoneRetinaDisplay;
+            return CCDeviceiPhoneRetinaDisplay;
         }
         else
         {
-            ret = CCDeviceiPhone;
+            return CCDeviceiPhone;
         }
     } else {
         if([CCDirector sharedDirector].contentScaleFactor > 1.0)
         {
-            ret = CCDeviceiPadRetinaDisplay;
+            return CCDeviceiPadRetinaDisplay;
         }
         else
         {
-            ret = CCDeviceiPad;
+            return CCDeviceiPad;
         }
 
     }
@@ -204,27 +217,30 @@ static char * glExtensions;
 	
 	if( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 	{
-		ret = ([UIScreen mainScreen].scale == 2) ? CCDeviceiPadRetinaDisplay : CCDeviceiPad;
+		return ([UIScreen mainScreen].scale == 2) ? CCDeviceiPadRetinaDisplay : CCDeviceiPad;
 	}
 	else if( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone )
 	{
-		// From http://stackoverflow.com/a/12535566
-		BOOL isiPhone5 = CGSizeEqualToSize([[UIScreen mainScreen] preferredMode].size,CGSizeMake(640, 1136));
+		CGSize preferredSize = [[UIScreen mainScreen] preferredMode].size;
 		
-		if( [UIScreen mainScreen].scale == 2 ) {
-			ret = isiPhone5 ? CCDeviceiPhone5RetinaDisplay : CCDeviceiPhoneRetinaDisplay;
-		} else
-			ret = isiPhone5 ? CCDeviceiPhone5 : CCDeviceiPhone;
+		if(preferredSize.height == 960){
+			return ([UIScreen mainScreen].scale == 2 ? CCDeviceiPhoneRetinaDisplay : CCDeviceiPhone);
+		} else if(preferredSize.height == 1136){
+			return CCDeviceiPhone5RetinaDisplay;
+		} else {
+			return ([UIScreen mainScreen].scale == 2 ? CCDeviceiPhone6 : CCDeviceiPhone6Plus);
+		}
 	}
 	
 #elif __CC_PLATFORM_MAC
 	
 	// XXX: Add here support for Mac Retina Display
-	ret = CCDeviceMac;
+	return CCDeviceMac;
 	
 #endif // __CC_PLATFORM_MAC
 	
-	return ret;
+	// This is what it used to do before, but it seems quite wrong...
+	return -1;
 }
 
 #pragma mark OpenGL getters
@@ -402,7 +418,7 @@ static char * glExtensions;
 
 	printf("cocos2d: OS version: %s (0x%08x)\n", [OSVer UTF8String], _OSVersion);
 	printf("cocos2d: %ld bit runtime\n", 8*sizeof(long));	
-	printf("cocos2d: Multi-threaded rendering: %s\n", (CC_RENDER_DISPATCH_ENABLED ? "YES" : "NO"));
+	printf("cocos2d: Multi-threaded rendering: %d\n", CC_RENDER_DISPATCH_ENABLED);
 	
 	if(_graphicsAPI == CCGraphicsAPIGL){
 		printf("cocos2d: OpenGL Rendering enabled.");

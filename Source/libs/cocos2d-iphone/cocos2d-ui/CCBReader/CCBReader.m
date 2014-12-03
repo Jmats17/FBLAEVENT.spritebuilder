@@ -1182,6 +1182,9 @@ static inline float readFloat(CCBReader *self)
         [self readPropertyForNode:(CCNode*)properties parent:nil isExtraProp:NO];
     }
     
+    // TODO: This is a hack because things are happening in the wrong order, needs refactoring!
+    [self postDeserialization];
+    
     CCNode * nodeBodyA = properties[@"bodyA"];
     CCNode * nodeBodyB = properties[@"bodyB"];
     
@@ -1212,7 +1215,7 @@ static inline float readFloat(CCBReader *self)
             float   damping = properties[@"dampedSpringDamping"] ? [properties[@"dampedSpringDamping"] floatValue] : 4.0f;
             damping *= 100.0f;
 
-            CCPhysicsJoint * rotarySpringJoint = [CCPhysicsJoint connectedRotarySpringJointWithBodyA:nodeBodyA.physicsBody bodyB:nodeBodyB.physicsBody restAngle:restAngle stifness:stiffness damping:damping];
+            CCPhysicsJoint * rotarySpringJoint = [CCPhysicsJoint connectedRotarySpringJointWithBodyA:nodeBodyA.physicsBody bodyB:nodeBodyB.physicsBody restAngle:restAngle stiffness:stiffness damping:damping];
             
             rotarySpringJoint.maxForce = maxForce;
             rotarySpringJoint.breakingForce = breakingForce;
@@ -1322,6 +1325,32 @@ static inline float readFloat(CCBReader *self)
 	return node;
 }
 
+// I cannot believe there isn't a stdlib way to do this...
+static SEL
+SelectorNameForProperty(objc_property_t property)
+{
+    char *customSetterName = property_copyAttributeValue(property, "S");
+    
+    if(customSetterName){
+        SEL selector = sel_registerName(customSetterName);
+        free(customSetterName);
+        
+        return selector;
+    } else {
+        const int MAX_LENGTH = 256;
+        
+        const char *pname = property_getName(property);
+        char sname[MAX_LENGTH + 1];
+        int len =   snprintf(sname, MAX_LENGTH, "set%s:", pname);
+        NSCAssert(len < MAX_LENGTH, @"Property name too long!");
+        
+        // Capitalize the name.
+        sname[3] = toupper(sname[3]);
+        
+        return sel_registerName(sname);
+    }
+}
+
 - (CCNode*) readNodeGraphParent:(CCNode*)parent
 {
     NSString* className = [self readCachedString];
@@ -1340,7 +1369,7 @@ static inline float readFloat(CCBReader *self)
         // Class was not found. Maybe it's a Swift class?
         // See http://stackoverflow.com/questions/24030814/swift-language-nsclassfromstring
         NSString *appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
-        NSString *classStringName = [NSString stringWithFormat:@"_TtC%d%@%d%@", appName.length, appName, className.length, className];
+        NSString *classStringName = [NSString stringWithFormat:@"_TtC%lu%@%lu%@", (unsigned long)appName.length, appName, (unsigned long)className.length, className];
         class = NSClassFromString(classStringName);
     }
     if (!class)
@@ -1455,16 +1484,28 @@ static inline float readFloat(CCBReader *self)
         if (memberVarAssignmentType == kCCBTargetTypeDocumentRoot) target = animationManager.rootNode;
         else if (memberVarAssignmentType == kCCBTargetTypeOwner) target = owner;
         
+        const char *varName = [memberVarAssignmentName UTF8String];
         if (target)
         {
-            Ivar ivar = class_getInstanceVariable([target class],[memberVarAssignmentName UTF8String]);
-            if (ivar)
+            Class targetClass = [target class];
+            objc_property_t property = class_getProperty(targetClass, varName);
+            
+            if(property)
             {
-                object_setIvar(target,ivar,node);
+              typedef void (*Func)(id, SEL, id);
+              ((Func)objc_msgSend)(target, SelectorNameForProperty(property), node);
             }
             else
             {
-                NSLog(@"CCBReader: Couldn't find member variable: %@", memberVarAssignmentName);
+                Ivar ivar = class_getInstanceVariable(targetClass, varName);
+                if (ivar)
+                {
+                    object_setIvar(target,ivar,node);
+                }
+                else
+                {
+                    NSLog(@"CCBReader: Couldn't find member variable: %@", memberVarAssignmentName);
+                }
             }
         }
     }

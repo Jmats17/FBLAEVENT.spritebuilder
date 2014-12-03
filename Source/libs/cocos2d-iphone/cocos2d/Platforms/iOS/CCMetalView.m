@@ -6,7 +6,6 @@
 #import <Metal/Metal.h>
 
 #import "CCMetalView.h"
-#import "CCES2Renderer.h"
 #import "../../CCDirector.h"
 #import "../../ccMacros.h"
 #import "../../CCConfiguration.h"
@@ -21,7 +20,6 @@
 
 @implementation CCMetalView {
 	CCMetalContext *_context;
-//	id<MTLCommandQueue> _queue;
 	id<MTLDrawable> _currentDrawable;
 	
 	dispatch_semaphore_t _queuedFramesSemaphore;
@@ -40,7 +38,7 @@
 	{
 		_context = [[CCMetalContext alloc] init];
 		
-		#warning Temporary. Move into CCRenderDispatch?
+		//TODO Move into CCRenderDispatch to support threaded rendering with Metal?
 		[CCMetalContext setCurrentContext:_context];
 		
 		_queuedFramesSemaphore = dispatch_semaphore_create(CC_METAL_MAX_QUEUED_FRAMES);
@@ -63,25 +61,6 @@
 	return self;
 }
 
-//-(id) initWithCoder:(NSCoder *)aDecoder
-//{
-//	if( (self = [super initWithCoder:aDecoder]) ) {
-//		CAMetalLayer *layer = (CAMetalLayer *)self.layer;
-//		
-//		_pixelformat = kEAGLColorFormatRGB565;
-//		_depthFormat = 0;
-//		_multiSampling= NO;
-//		_requestedSamples = 0;
-//		_surfaceSize = [layer bounds].size;
-//		
-//		if(![self setupSurfaceWithSharegroup:nil]){
-//			return nil;
-//		}
-//	}
-//	
-//	return self;
-//}
-
 - (void) dealloc
 {
 	CCLOGINFO(@"cocos2d: deallocing %@", self);
@@ -101,71 +80,39 @@
 	[[CCDirector sharedDirector] reshapeProjection:_surfaceSize];
 }
 
-//- (MTLRenderPassDescriptor *)renderPassDescriptorForTexture:(id <MTLTexture>)texture
-//{
-//	MTLRenderPassDescriptor *descriptor = [MTLRenderPassDescriptor renderPassDescriptor];
-//	
-//	MTLRenderPassColorAttachmentDescriptor *colorAttachment = [MTLRenderPassColorAttachmentDescriptor new];
-//	colorAttachment.texture = texture;
-//	colorAttachment.loadAction = MTLLoadActionClear;
-//	colorAttachment.clearColor = MTLClearColorMake(0, 0, 0, 0);
-//	colorAttachment.storeAction = MTLStoreActionStore;
-//	
-//	descriptor.colorAttachments[0] = colorAttachment;
-//	
-//	return descriptor;
-//    
-////    if (!_depthTex || (_depthTex && (_depthTex.width != texture.width || _depthTex.height != texture.height)))
-////    {
-////        //  If we need a depth texture and don't have one, or if the depth texture we have is the wrong size
-////        //  Then allocate one of the proper size
-////        
-////        MTLTextureDescriptor* desc = [MTLTextureDescriptor texture2DDescriptorWithPixelFormat: MTLPixelFormatDepth32Float width: texture.width height: texture.height mipmapped: NO];
-////        _depthTex = [_device newTextureWithDescriptor: desc];
-////        _depthTex.label = @"Depth";
-////        
-////        MTLRenderPassAttachmentDescriptor *depthAttachment = [MTLRenderPassAttachmentDescriptor new];
-////        depthAttachment.texture = _depthTex;
-////        [depthAttachment setLoadAction:MTLLoadActionClear];
-////        [depthAttachment setClearValue:MTLClearValueMakeDepth(1.0)];
-////        [depthAttachment setStoreAction: MTLStoreActionDontCare];
-////        
-////        _renderPassDescriptor.depthAttachment = depthAttachment;
-////    }
-//}
-
 -(void)beginFrame
 {
+	dispatch_semaphore_wait(_queuedFramesSemaphore, DISPATCH_TIME_FOREVER);
+	
 	if(_layerSizeDidUpdate){
 		self.metalLayer.drawableSize = _surfaceSize;
 		_layerSizeDidUpdate = NO;
 	}
 	
-	[_context prepareCommandBuffer];
+	id<CAMetalDrawable> drawable = nil;
+	while(drawable == nil){
+		drawable = [self.metalLayer nextDrawable];
+
+#if DEBUG
+		if(drawable == nil) NSLog(@"Metal drawable pool exhausted. You may be rendering too much in a frame.");
+#endif
+	}
 	
+	_currentDrawable = drawable;
+	_destinationTexture = drawable.texture;
+}
+
+- (void)presentFrame
+{
 	// Prevent the block from retaining self via the ivar.
 	dispatch_semaphore_t sema = _queuedFramesSemaphore;
 	[_context.currentCommandBuffer addCompletedHandler:^(id<MTLCommandBuffer> buffer){
 		dispatch_semaphore_signal(sema);
 	}];
 	
-//	id<CAMetalDrawable> drawable = nil;
-//	while(drawable == nil){
-//		drawable = [self.metalLayer nextDrawable];
-//		
-//		if(drawable == nil) NSLog(@"nil drawable? (Why does this happen?)");
-//	}
+	[_context flushCommandBuffer];
 	
-	id<CAMetalDrawable> drawable = [self.metalLayer nextDrawable];
-	[_context.currentCommandBuffer presentDrawable:drawable];
-	
-	_currentDrawable = drawable;
-	_context.destinationTexture = drawable.texture;
-}
-
-- (void)presentFrame
-{
-	[_context commitCurrentCommandBuffer];
+	[_currentDrawable present];
 	_currentDrawable = nil;
 }
 
