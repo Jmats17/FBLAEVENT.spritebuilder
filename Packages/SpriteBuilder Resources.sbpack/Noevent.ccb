@@ -216,7 +216,7 @@
 						<string>Text</string>
 						<key>value</key>
 						<array>
-							<string>NO EVENT LISTED FOR TODAY</string>
+							<string>NO EVENT LISTED FOR THIS DATE</string>
 							<false/>
 						</array>
 					</dict>
@@ -365,10 +365,12 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
-		<string>NoEvent</string>
+		<string>Noevent</string>
 		<key>displayName</key>
 		<string>CCNode</string>
 		<key>memberVarAssignmentName</key>
@@ -437,8 +439,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
