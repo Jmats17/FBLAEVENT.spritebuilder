@@ -202,8 +202,6 @@
 						<string></string>
 						<key>displayName</key>
 						<string>jun4</string>
-						<key>hidden</key>
-						<true/>
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
@@ -538,14 +536,20 @@
 						<string></string>
 						<key>displayName</key>
 						<string>CCButton</string>
-						<key>hidden</key>
-						<true/>
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
 						<integer>1</integer>
 						<key>properties</key>
 						<array>
+							<dict>
+								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
 							<dict>
 								<key>name</key>
 								<string>name</string>
@@ -854,8 +858,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -868,8 +870,6 @@
 						<string></string>
 						<key>displayName</key>
 						<string>CCButton</string>
-						<key>hidden</key>
-						<true/>
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
@@ -1204,8 +1204,6 @@
 						<string></string>
 						<key>displayName</key>
 						<string>CCButton</string>
-						<key>hidden</key>
-						<true/>
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
@@ -2549,7 +2547,7 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCButton</string>
+						<string>jun18</string>
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
@@ -2617,7 +2615,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string>a</string>
+									<string>jun18</string>
 									<integer>1</integer>
 								</array>
 							</dict>
@@ -6546,6 +6544,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
