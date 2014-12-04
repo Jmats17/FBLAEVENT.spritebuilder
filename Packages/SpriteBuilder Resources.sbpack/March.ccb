@@ -210,6 +210,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -223,11 +231,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>24.537603378295898</real>
-									<real>421.63201904296875</real>
+									<real>0.076680012047290802</real>
+									<real>0.74230986833572388</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -536,6 +544,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -549,11 +565,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>68.025604248046875</real>
-									<real>415.41131591796875</real>
+									<real>0.21258001029491425</real>
+									<real>0.73135793209075928</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -862,6 +878,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -875,11 +899,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>112.32000732421875</real>
-									<real>421.632080078125</real>
+									<real>0.35100001096725464</real>
+									<real>0.74230998754501343</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -1188,6 +1212,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -1201,11 +1233,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>158.97601318359375</real>
-									<real>419.5584716796875</real>
+									<real>0.49680003523826599</real>
+									<real>0.73865926265716553</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -1514,6 +1546,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -1527,11 +1567,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>208.63201904296875</real>
-									<real>419.5584716796875</real>
+									<real>0.65197503566741943</real>
+									<real>0.73865926265716553</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -1840,6 +1880,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -1853,11 +1901,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>250.56002807617188</real>
-									<real>419.90408325195312</real>
+									<real>0.78300011157989502</real>
+									<real>0.73926776647567749</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -2166,6 +2214,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -2179,11 +2235,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>295.488037109375</real>
-									<real>419.90408325195312</real>
+									<real>0.92340010404586792</real>
+									<real>0.73926776647567749</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -2492,6 +2548,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -2505,11 +2569,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>26.265600204467773</real>
-									<real>328.66567993164062</real>
+									<real>0.082079999148845673</real>
+									<real>0.5786367654800415</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -2818,6 +2882,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -2831,11 +2903,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>69.120002746582031</real>
-									<real>326.592041015625</real>
+									<real>0.21600000560283661</real>
+									<real>0.57498598098754883</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -3144,6 +3216,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -3157,11 +3237,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>114.04800415039062</real>
-									<real>326.51846313476562</real>
+									<real>0.3564000129699707</real>
+									<real>0.5748564600944519</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -3470,6 +3550,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -3483,11 +3571,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>160.70401000976562</real>
-									<real>327.51846313476562</real>
+									<real>0.50220000743865967</real>
+									<real>0.57661700248718262</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -3796,6 +3884,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -3809,11 +3905,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>208.36003112792969</real>
-									<real>327.51849365234375</real>
+									<real>0.65112507343292236</real>
+									<real>0.57661706209182739</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -4122,6 +4218,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -4135,11 +4239,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>252.28804016113281</real>
-									<real>324.51846313476562</real>
+									<real>0.78840011358261108</real>
+									<real>0.5713353157043457</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -4448,6 +4552,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -4461,11 +4573,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>296.216064453125</real>
-									<real>325.51846313476562</real>
+									<real>0.92567521333694458</real>
+									<real>0.57309585809707642</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -4774,6 +4886,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -4787,11 +4907,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>24.192026138305664</real>
-									<real>234.66246032714844</real>
+									<real>0.075600080192089081</real>
+									<real>0.41313812136650085</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -5100,6 +5220,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -5113,11 +5241,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>69.120033264160156</real>
-									<real>238.80967712402344</real>
+									<real>0.21600010991096497</real>
+									<real>0.42043957114219666</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -5426,6 +5554,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -5439,11 +5575,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>113.77603912353516</real>
-									<real>235.80966186523438</real>
+									<real>0.35555011034011841</real>
+									<real>0.41515785455703735</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -5752,6 +5888,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -5765,11 +5909,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>160.70404052734375</real>
-									<real>236.73606872558594</real>
+									<real>0.50220012664794922</real>
+									<real>0.41678884625434875</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -6078,6 +6222,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -6091,11 +6243,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>207.36006164550781</real>
-									<real>236.88327026367188</real>
+									<real>0.64800018072128296</real>
+									<real>0.41704800724983215</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -6404,6 +6556,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -6417,11 +6577,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>252.21446228027344</real>
-									<real>230.86085510253906</real>
+									<real>0.7881702184677124</real>
+									<real>0.40644517540931702</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -6730,6 +6890,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -6743,11 +6911,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>295.1424560546875</real>
-									<real>239.22885131835938</real>
+									<real>0.92232018709182739</real>
+									<real>0.42117756605148315</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -7056,6 +7224,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -7069,11 +7245,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>22.464025497436523</real>
-									<real>58.752037048339844</real>
+									<real>0.070200078189373016</real>
+									<real>0.10343668609857559</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -7382,6 +7558,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -7395,11 +7579,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>63.936031341552734</real>
-									<real>54.604835510253906</real>
+									<real>0.19980010390281677</real>
+									<real>0.096135273575782776</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -7708,6 +7892,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -7721,11 +7913,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>112.32003784179688</real>
-									<real>54.604835510253906</real>
+									<real>0.35100013017654419</real>
+									<real>0.096135273575782776</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -8034,6 +8226,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -8047,11 +8247,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>19.316825866699219</real>
-									<real>149.84324645996094</real>
+									<real>0.060365080833435059</real>
+									<real>0.26380851864814758</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -8360,6 +8560,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -8373,11 +8581,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>63.862430572509766</real>
-									<real>148.06405639648438</real>
+									<real>0.19957008957862854</real>
+									<real>0.26067614555358887</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -8686,6 +8894,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -8699,11 +8915,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>107.48163604736328</real>
-									<real>149.99046325683594</real>
+									<real>0.3358801007270813</real>
+									<real>0.26406770944595337</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -9012,6 +9228,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -9025,11 +9249,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>153.10084533691406</real>
-									<real>149.99046325683594</real>
+									<real>0.47844013571739197</real>
+									<real>0.26406770944595337</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -9338,6 +9562,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -9351,11 +9583,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>202.79364013671875</real>
-									<real>150.99046325683594</real>
+									<real>0.63373011350631714</real>
+									<real>0.26582828164100647</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -9664,6 +9896,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -9677,11 +9917,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>245.3392333984375</real>
-									<real>147.9168701171875</real>
+									<real>0.7666851282119751</real>
+									<real>0.26041701436042786</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -9990,6 +10230,14 @@
 						<array>
 							<dict>
 								<key>name</key>
+								<string>visible</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>name</string>
 								<key>type</key>
 								<string>StringSimple</string>
@@ -10003,11 +10251,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>289.95843505859375</real>
-									<real>149.990478515625</real>
+									<real>0.90612012147903442</real>
+									<real>0.26406773924827576</real>
 									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
+									<integer>2</integer>
+									<integer>2</integer>
 								</array>
 							</dict>
 							<dict>
@@ -10296,6 +10544,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
@@ -10308,14 +10558,6 @@
 				<integer>1</integer>
 				<key>properties</key>
 				<array>
-					<dict>
-						<key>name</key>
-						<string>visible</string>
-						<key>type</key>
-						<string>Check</string>
-						<key>value</key>
-						<false/>
-					</dict>
 					<dict>
 						<key>name</key>
 						<string>name</string>
@@ -10332,10 +10574,10 @@
 						<key>value</key>
 						<array>
 							<real>0.0</real>
-							<real>-8.2944011688232422</real>
+							<real>0.0</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -10345,10 +10587,10 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>0.0</real>
-							<real>0.0</real>
-							<integer>0</integer>
-							<integer>0</integer>
+							<real>1</real>
+							<real>1</real>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -10376,8 +10618,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>

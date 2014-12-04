@@ -14,13 +14,14 @@
 
     CCNode *jun4;
     CCNode *jun10;
-    CCButton *jun4button;
     CCNode *noEvent;
+    CCButton *goBackAll;
+    CCButton *goBackJun;
 }
 
 -(void) didLoadFromCCB {
     self.userInteractionEnabled = TRUE;
-   // jun4button.visible = false;
+    goBackJun.visible = false;
 }
 
 
@@ -28,7 +29,8 @@
      NSLog(@"clicked");
 
     jun4.visible = true;
-    
+    goBackAll.visible = false;
+    goBackJun.visible = true;
 
 }
 
@@ -37,11 +39,14 @@
 -(void)jun10 {
     NSLog(@"clicked2");
     jun10.visible = true;
-    
+    goBackAll.visible = false;
+    goBackJun.visible = true;
 }
 
 -(void)a {
     noEvent.visible = true;
+    goBackAll.visible = false;
+    goBackJun.visible = true;
 }
 
 -(void)goBackJun {
@@ -52,13 +57,19 @@
     jun4.visible = false;
     jun10.visible = false;
     noEvent.visible = false;
+    if (jun4.visible == false || jun10.visible == false || noEvent.visible == false) {
+        goBackAll.visible = true;
+        goBackJun.visible = false;
+    }
+    
 }
 
-//- (void) a {
-//    CCScene *noEvent = [CCBReader loadAsScene: @"Noevent"];
-//    CCTransition *transition = [CCTransition transitionCrossFadeWithDuration:.5f];
-//    [[CCDirector sharedDirector] replaceScene:noEvent withTransition:transition];
-//}
+-(void)goBackAll {
+    NSLog(@"months clicked");
+    CCScene *allmonths = [CCBReader loadAsScene: @"Allmonths"];
+    CCTransition *transition = [CCTransition transitionCrossFadeWithDuration:.5f];
+    [[CCDirector sharedDirector] replaceScene:allmonths withTransition:transition];
+}
 
 
 
