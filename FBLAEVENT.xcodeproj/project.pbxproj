@@ -67,9 +67,7 @@
 		D0802F351A2D1A880074DC8D /* May.m in Sources */ = {isa = PBXBuildFile; fileRef = D0802F341A2D1A880074DC8D /* May.m */; };
 		D0802F381A2D1A900074DC8D /* June.m in Sources */ = {isa = PBXBuildFile; fileRef = D0802F371A2D1A900074DC8D /* June.m */; };
 		D0DD04E81A2FAEB6003D2C14 /* Noevent.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DD04E71A2FAEB6003D2C14 /* Noevent.m */; };
-=======
-		D0DD04DA1A2E9C07003D2C14 /* NoEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DD04D91A2E9C07003D2C14 /* NoEvent.m */; };
->>>>>>> 39d45b36604b7a0d526914ad26f6334f0feca97d
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,10 +172,7 @@
 		D0802F371A2D1A900074DC8D /* June.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = June.m; sourceTree = "<group>"; };
 		D0DD04E61A2FAEB6003D2C14 /* Noevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Noevent.h; sourceTree = "<group>"; };
 		D0DD04E71A2FAEB6003D2C14 /* Noevent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Noevent.m; sourceTree = "<group>"; };
-=======
-		D0DD04D81A2E9C07003D2C14 /* NoEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoEvent.h; sourceTree = "<group>"; };
-		D0DD04D91A2E9C07003D2C14 /* NoEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoEvent.m; sourceTree = "<group>"; };
->>>>>>> 39d45b36604b7a0d526914ad26f6334f0feca97d
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -669,9 +664,7 @@
 				B7378994180767190076A88C /* December.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				D0DD04E81A2FAEB6003D2C14 /* Noevent.m in Sources */,
-=======
-				D0DD04DA1A2E9C07003D2C14 /* NoEvent.m in Sources */,
->>>>>>> 39d45b36604b7a0d526914ad26f6334f0feca97d
+
 				D0802F2C1A2D1A6D0074DC8D /* February.m in Sources */,
 				D0802F2F1A2D1A760074DC8D /* March.m in Sources */,
 				D0802F291A2D1A5B0074DC8D /* January.m in Sources */,

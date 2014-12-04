@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>20</integer>
+	<integer>26</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -41,14 +41,14 @@
 		<array>
 			<dict>
 				<key>UUID</key>
-				<integer>11</integer>
+				<integer>20</integer>
 				<key>baseClass</key>
 				<string>CCNode</string>
 				<key>children</key>
 				<array>
 					<dict>
 						<key>UUID</key>
-						<integer>12</integer>
+						<integer>21</integer>
 						<key>baseClass</key>
 						<string>CCNodeColor</string>
 						<key>children</key>
@@ -147,7 +147,7 @@
 					</dict>
 					<dict>
 						<key>UUID</key>
-						<integer>13</integer>
+						<integer>22</integer>
 						<key>baseClass</key>
 						<string>CCLabelTTF</string>
 						<key>children</key>
@@ -177,8 +177,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.45534229278564453</real>
-									<real>0.89768362045288086</real>
+									<real>0.5</real>
+									<real>0.89999997615814209</real>
 									<integer>0</integer>
 									<integer>2</integer>
 									<integer>2</integer>
@@ -367,7 +367,7 @@
 					</dict>
 					<dict>
 						<key>UUID</key>
-						<integer>14</integer>
+						<integer>23</integer>
 						<key>baseClass</key>
 						<string>CCLabelTTF</string>
 						<key>children</key>
@@ -397,8 +397,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.52070122957229614</real>
-									<real>0.47794559597969055</real>
+									<real>0.5</real>
+									<real>0.5</real>
 									<integer>0</integer>
 									<integer>2</integer>
 									<integer>2</integer>
@@ -587,7 +587,7 @@
 					</dict>
 					<dict>
 						<key>UUID</key>
-						<integer>15</integer>
+						<integer>24</integer>
 						<key>animatedProperties</key>
 						<dict>
 							<key>0</key>
@@ -708,8 +708,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.45886349678039551</real>
-									<real>0.20502267777919769</real>
+									<real>0.50176054239273071</real>
+									<real>0.2604166567325592</real>
 									<integer>0</integer>
 									<integer>2</integer>
 									<integer>2</integer>
@@ -733,8 +733,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>0.95623159408569336</real>
-									<real>0.82086610794067383</real>
+									<real>1.5</real>
+									<real>1.5</real>
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -798,7 +798,7 @@
 					</dict>
 					<dict>
 						<key>UUID</key>
-						<integer>19</integer>
+						<integer>25</integer>
 						<key>baseClass</key>
 						<string>CCLabelTTF</string>
 						<key>children</key>
@@ -828,8 +828,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.4596996009349823</real>
-									<real>0.71681767702102661</real>
+									<real>0.5</real>
+									<real>0.69999998807907104</real>
 									<integer>0</integer>
 									<integer>2</integer>
 									<integer>2</integer>
@@ -1050,7 +1050,6 @@
 								<array>
 									<real>472.1903076171875</real>
 									<real>302.44113159179688</real>
-
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1076,7 +1075,6 @@
 								<array>
 									<real>1.2512850761413574</real>
 									<real>1.3004902601242065</real>
-									
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -1152,7 +1150,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.0055909426882863045</real>
+							<real>0.0055175516754388809</real>
 							<real>0.0</real>
 							<integer>0</integer>
 							<integer>2</integer>
@@ -1166,10 +1164,10 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
-							<integer>2</integer>
-							<integer>2</integer>
+							<real>568</real>
+							<real>384</real>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1197,8 +1195,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -1240,10 +1236,10 @@
 				<string>Size</string>
 				<key>value</key>
 				<array>
-					<real>0.5</real>
-					<real>0.5</real>
-					<integer>2</integer>
-					<integer>2</integer>
+					<real>568</real>
+					<real>384</real>
+					<integer>0</integer>
+					<integer>0</integer>
 				</array>
 			</dict>
 			<dict>
@@ -1253,8 +1249,8 @@
 				<string>Point</string>
 				<key>value</key>
 				<array>
-					<real>0.5</real>
-					<real>0.5</real>
+					<real>0.0</real>
+					<real>0.0</real>
 				</array>
 			</dict>
 			<dict>
@@ -1271,6 +1267,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
