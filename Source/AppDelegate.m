@@ -59,7 +59,7 @@
 
 - (CCScene*) startScene
 {
-    return [CCBReader loadAsScene:@"February"];
+    return [CCBReader loadAsScene:@"April"];
 }
 
 @end
