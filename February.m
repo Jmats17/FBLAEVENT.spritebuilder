@@ -78,6 +78,8 @@
 -(void)goBackAll {
     NSLog(@"months clicked");
     CCScene *allmonths = [CCBReader loadAsScene: @"Allmonths"];
-    [[CCDirector sharedDirector] replaceScene:allmonths];
+    CCTransition *transition = [CCTransition transitionCrossFadeWithDuration:.5f];
+
+    [[CCDirector sharedDirector] replaceScene:allmonths withTransition:transition];
 }
 @end
