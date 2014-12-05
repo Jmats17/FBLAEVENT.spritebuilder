@@ -10,6 +10,8 @@
 
 @implementation October
 
+// goes back to mini calenders
+
 -(void)goBackAll {
     NSLog(@"months clicked");
     CCScene *allmonths = [CCBReader loadAsScene: @"AllMonths"];

@@ -10,6 +10,7 @@
 
 @implementation Allmonths
 
+//For each one, send you to each month when you click on the mini calender in the home screen
 
 -(void)goDec {
         CCScene *dec = [CCBReader loadAsScene: @"December"];

@@ -25,6 +25,7 @@
     goBackJan.visible = false;
 }
 
+//portrays event
 
 -(void)jan9 {
     NSLog(@"clicked");
@@ -35,6 +36,7 @@
     
 }
 
+//portrays event
 
 
 -(void)jan16 {
@@ -43,6 +45,8 @@
     goBackAll.visible = false;
     goBackJan.visible = true;
 }
+//portrays event
+
 
 -(void)jan23 {
     NSLog(@"clicked2");
@@ -50,6 +54,7 @@
     goBackAll.visible = false;
     goBackJan.visible = true;
 }
+//portrays event
 
 -(void)a {
     NSLog(@"clicked111");
@@ -58,6 +63,7 @@
     goBackAll.visible = false;
     goBackJan.visible = true;
 }
+//goes back to the month calender view
 
 -(void)goBackJan {
     //    NSLog(@"clicked3");
@@ -74,6 +80,8 @@
     }
     
 }
+// goes back to mini calenders
+
 
 -(void)goBackAll {
     NSLog(@"months clicked");

@@ -25,6 +25,7 @@
     goBackMar.visible = false;
 }
 
+//portrays event
 
 -(void)mar2 {
     NSLog(@"clicked");
@@ -35,6 +36,7 @@
     
 }
 
+//portrays event
 
 
 -(void)mar11 {
@@ -43,6 +45,7 @@
     goBackAll.visible = false;
     goBackMar.visible = true;
 }
+//portrays event
 
 -(void)mar27 {
     NSLog(@"clicked2");
@@ -51,6 +54,9 @@
     goBackMar.visible = true;
 }
 
+//portrays event
+
+
 -(void)a {
     NSLog(@"clicked111");
     
@@ -58,6 +64,7 @@
     goBackAll.visible = false;
     goBackMar.visible = true;
 }
+//goes back to the month calender view
 
 -(void)goBackMar {
     //    NSLog(@"clicked3");
@@ -74,6 +81,8 @@
     }
     
 }
+
+// goes back to mini calenders
 
 -(void)goBackAll {
     NSLog(@"months clicked");
