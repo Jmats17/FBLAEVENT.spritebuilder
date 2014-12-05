@@ -8,6 +8,8 @@ months. We created this simple, yet easy to use calender with predetermined even
 
 FOR JUDGES:
 
+ALSO TO KNOW, in the app, when it loads, there are mini calenders that act as buttons, click one to go to that selected month, in the month you can click a day for selected event
+
 Steps
 
 1. Make sure you have latest version of Xcode and Spritebuilder
