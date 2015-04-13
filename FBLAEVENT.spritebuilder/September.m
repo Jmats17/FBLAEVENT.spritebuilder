@@ -16,6 +16,6 @@
     CCScene *allmonths = [CCBReader loadAsScene: @"AllMonths"];
     CCTransition *transition = [CCTransition transitionCrossFadeWithDuration:.5f];
     [[CCDirector sharedDirector] replaceScene:allmonths withTransition:transition];
-    ccc
+    
 }
 @end
