@@ -90,19 +90,19 @@
 			remoteGlobalIDString = D2FEB74F194F6C9E00FC0574;
 			remoteInfo = cocos2dAndroid;
 		};
-		054282FC1A2EAE1A005B12B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 054282EB1A2EAE19005B12B0 /* cocos2d.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5BF3267A195F8D8800D9A51A;
-			remoteInfo = cocos2dJava;
-		};
 		054282FE1A2EAE1A005B12B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 054282EB1A2EAE19005B12B0 /* cocos2d.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 7A4037A819E37038007B6E8F;
 			remoteInfo = "cocos2d-mac";
+		};
+		05D06FC41ADB95A700533A86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 054282EB1A2EAE19005B12B0 /* cocos2d.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7E7DE341A76DB7D004234B7;
+			remoteInfo = cocos2dMacFramework;
 		};
 		5B121031197485D1004C1E1D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -122,7 +122,7 @@
 		5B121013197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 		5B121015197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 		5B12101B19748413004C1E1D /* FBLAEVENTActivity.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = FBLAEVENTActivity.java; sourceTree = "<group>"; };
-		5B121021197484A3004C1E1D /* FBLAEVENT Java.jar */ = {isa = PBXFileReference; explicitFileType = compiled.java.jar; includeInIndex = 0; path = "FBLAEVENT Java.jar"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B121021197484A3004C1E1D /* FBLAEVENT Java.jar */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.jar; path = "FBLAEVENT Java.jar"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B12102E197484FA004C1E1D /* FBLAEVENTActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLAEVENTActivity.h; path = Source/FBLAEVENTActivity.h; sourceTree = "<group>"; };
 		5B12102F197484FA004C1E1D /* FBLAEVENTActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLAEVENTActivity.m; path = Source/FBLAEVENTActivity.m; sourceTree = "<group>"; };
 		5B121033197485FE004C1E1D /* Android-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Android-Info.plist"; sourceTree = "<group>"; };
@@ -238,8 +238,8 @@
 			children = (
 				054282F91A2EAE1A005B12B0 /* libcocos2d.a */,
 				054282FB1A2EAE1A005B12B0 /* libcocos2dAndroid.a */,
-				054282FD1A2EAE1A005B12B0 /* cocos2dJava.jar */,
 				054282FF1A2EAE1A005B12B0 /* libcocos2d-mac.a */,
+				05D06FC51ADB95A700533A86 /* cocos2dMacFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -570,18 +570,18 @@
 			remoteRef = 054282FA1A2EAE1A005B12B0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		054282FD1A2EAE1A005B12B0 /* cocos2dJava.jar */ = {
-			isa = PBXReferenceProxy;
-			fileType = compiled.java.jar;
-			path = cocos2dJava.jar;
-			remoteRef = 054282FC1A2EAE1A005B12B0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		054282FF1A2EAE1A005B12B0 /* libcocos2d-mac.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libcocos2d-mac.a";
 			remoteRef = 054282FE1A2EAE1A005B12B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05D06FC51ADB95A700533A86 /* cocos2dMacFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = cocos2dMacFramework.framework;
+			remoteRef = 05D06FC41ADB95A700533A86 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -944,6 +944,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -967,7 +969,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = FBLAEVENT;
-				PROVISIONING_PROFILE = "41562946-a117-4452-815f-74972732f89f";
+				PROVISIONING_PROFILE = "1cd1c3e2-0da4-46e2-9e2f-9050c3c8cec0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -976,9 +978,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ron Malinin (58B927YB34)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Prefix.pch;
@@ -997,7 +1001,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = FBLAEVENT;
-				PROVISIONING_PROFILE = "41562946-a117-4452-815f-74972732f89f";
+				PROVISIONING_PROFILE = "1cd1c3e2-0da4-46e2-9e2f-9050c3c8cec0";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
