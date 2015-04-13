@@ -9,7 +9,9 @@
 #import "Allmonths.h"
 
 @implementation Allmonths
-
+{
+    CCButton *button;
+}
 //For each one, send you to each month when you click on the mini calender in the home screen
 
 -(void)goDec {
@@ -17,7 +19,8 @@
         CCTransition *transition = [CCTransition transitionCrossFadeWithDuration:.5f];
         [[CCDirector sharedDirector] replaceScene:dec withTransition:transition];
 }
--(void)goJan {
+-(void)button {
+    NSLog(@"touched");
     CCScene *jan = [CCBReader loadAsScene: @"January"];
     CCTransition *transition = [CCTransition transitionCrossFadeWithDuration:.5f];
     [[CCDirector sharedDirector] replaceScene:jan withTransition:transition];

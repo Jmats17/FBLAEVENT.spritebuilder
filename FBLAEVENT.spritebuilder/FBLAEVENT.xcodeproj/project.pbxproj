@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		054283001A2EAE38005B12B0 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 054282F91A2EAE1A005B12B0 /* libcocos2d.a */; };
+		05CCCD421ADBE471002693E4 /* Contentnode.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CCCD411ADBE471002693E4 /* Contentnode.m */; };
 		5B12100C19748281004C1E1D /* BridgeKitV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B12100B19748281004C1E1D /* BridgeKitV3.framework */; };
 		5B121029197484DA004C1E1D /* BridgeKitV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B12100B19748281004C1E1D /* BridgeKitV3.framework */; };
 		5B12102A197484DD004C1E1D /* FBLAEVENTActivity.java in Sources */ = {isa = PBXBuildFile; fileRef = 5B12101B19748413004C1E1D /* FBLAEVENTActivity.java */; };
@@ -115,6 +116,8 @@
 
 /* Begin PBXFileReference section */
 		054282EB1A2EAE19005B12B0 /* cocos2d.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d.xcodeproj; path = "Source/libs/cocos2d-iphone/cocos2d.xcodeproj"; sourceTree = "<group>"; };
+		05CCCD401ADBE471002693E4 /* Contentnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contentnode.h; sourceTree = "<group>"; };
+		05CCCD411ADBE471002693E4 /* Contentnode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contentnode.m; sourceTree = "<group>"; };
 		5B12100919748273004C1E1D /* libEGL.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libEGL.so; path = /usr/lib/armv7a/libEGL.so; sourceTree = SDKROOT; };
 		5B12100B19748281004C1E1D /* BridgeKitV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BridgeKitV3.framework; path = System/Library/Frameworks/BridgeKitV3.framework; sourceTree = SDKROOT; };
 		5B12100F197483EE004C1E1D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
@@ -362,6 +365,8 @@
 				D0802F371A2D1A900074DC8D /* June.m */,
 				D0DD04F51A30B23B003D2C14 /* Allmonths.h */,
 				D0DD04F61A30B23B003D2C14 /* Allmonths.m */,
+				05CCCD401ADBE471002693E4 /* Contentnode.h */,
+				05CCCD411ADBE471002693E4 /* Contentnode.m */,
 				D0802F331A2D1A880074DC8D /* May.h */,
 				D0802F341A2D1A880074DC8D /* May.m */,
 			);
@@ -696,6 +701,7 @@
 				D0802F291A2D1A5B0074DC8D /* January.m in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 				D0DD05071A3112FE003D2C14 /* November.m in Sources */,
+				05CCCD421ADBE471002693E4 /* Contentnode.m in Sources */,
 				D040C8E41A311C62004F9421 /* July.m in Sources */,
 				D0DD05011A3112E9003D2C14 /* September.m in Sources */,
 				D040C8F41A312A0C004F9421 /* August.m in Sources */,
