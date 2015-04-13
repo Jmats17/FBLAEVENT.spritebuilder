@@ -23,6 +23,7 @@
 -(void) didLoadFromCCB {
     self.userInteractionEnabled = TRUE;
     goBackApr.visible = false;
+    goBackAll.visible = true;
 }
 //portrays event
 

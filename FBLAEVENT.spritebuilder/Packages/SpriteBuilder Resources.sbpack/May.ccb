@@ -248,8 +248,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>0.5</real>
-									<real>0.5</real>
+									<real>1.5</real>
+									<real>1.5</real>
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -272,8 +272,8 @@
 								<string>Size</string>
 								<key>value</key>
 								<array>
-									<real>85</real>
-									<real>58</real>
+									<real>22</real>
+									<real>22</real>
 									<integer>0</integer>
 									<integer>0</integer>
 								</array>
@@ -582,9 +582,9 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>0.5</real>
-									<real>0.5</real>
-									<false/>
+									<real>1.5</real>
+									<real>1.5</real>
+									<true/>
 									<integer>0</integer>
 								</array>
 							</dict>
@@ -606,8 +606,8 @@
 								<string>Size</string>
 								<key>value</key>
 								<array>
-									<real>85</real>
-									<real>58</real>
+									<real>22</real>
+									<real>22</real>
 									<integer>0</integer>
 									<integer>0</integer>
 								</array>
@@ -866,6 +866,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
@@ -13125,8 +13127,6 @@ Game</string>
 						<string>May15.ccb</string>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
